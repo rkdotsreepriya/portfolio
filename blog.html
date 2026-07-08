@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Blog — Sreepriya Radhakrishnan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-pill">
+    <a class="brand" href="index.html">Sreepriya Radhakrishnan<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <section class="page-head">
+    <h1>Blog</h1>
+    <p>Notes on what I'm building and learning. Posts are plain Markdown files in <code>/posts</code>.</p>
+  </section>
+
+  <ul class="post-list" id="post-list">
+    <li class="post-item"><a href="#">Loading posts…</a></li>
+  </ul>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:10px;">
+    <span>© <span id="year"></span> Sreepriya Radhakrishnan</span>
+    <span>Built with white &amp; orange.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="blog.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  loadPosts().then((posts) => {
+    const list = document.getElementById("post-list");
+    if (posts.length === 0) {
+      list.innerHTML = '<li class="post-item"><span>No posts yet — add one to posts/posts.json.</span></li>';
+      return;
+    }
+    list.innerHTML = posts.map((post) => `
+      <li class="post-item">
+        <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+          <a href="post.html?slug=${post.slug}">${post.title}</a>
+          <span style="display: flex; gap: 6px; flex-wrap: wrap;">
+            ${post.tags ? post.tags.map(tag => `<span class="tag" style="margin: 0; padding: 2px 8px; font-size: 0.65rem; border-color: var(--ink);">${tag}</span>`).join("") : ""}
+          </span>
+        </div>
+        <span class="post-date">${post.date}</span>
+      </li>
+    `).join("");
+  });
+</script>
+
+</body>
+</html>

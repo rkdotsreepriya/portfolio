@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sreepriya Radhakrishnan — Designer &amp; Developer</title>
+  <meta name="description" content="Personal site of Sreepriya Radhakrishnan — work, writing, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="nav-pill">
+      <a class="brand" href="index.html">Sreepriya Radhakrishnan<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrap">
+
+    <section class="hero">
+      <p class="eyebrow">// some professional &amp; personal notes.</p>
+      <h1>Hi, I'm<br />Sreepriya Radhakrishnan.</h1>
+      <div class="sticker">currently pursuing MSc in Psychology and building Early Education Centres.!</div>
+      <p class="hero-desc">
+        Hey! You can call me "Sree". I am an ENTREPRENEUR, EDUCATOR, COMMUNITY BUILDER and an ACTIVIST.
+        A Professional finger-painting enthusiast. Accidental CEO. Raising curious minds while pretending I've got it
+        all
+        figured out.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="work.html">See my work →</a>
+        <a class="btn ghost" href="contact.html"
+          style="background: var(--ink); border-color: var(--ink); color: var(--paper);">Get in touch</a>
+      </div>
+    </section>
+
+    <div class="strip">
+      <div class="strip-track">
+        <span>OPEN TO FREELANCE WORK</span>
+        <span>•</span>
+        <span>BASED IN COCHIN</span>
+        <span>•</span>
+        <span>EDUCATIONIST · ENTREPRENEUR · ACTIVIST</span>
+        <span>•</span>
+        <span>OPEN TO FREELANCE WORK</span>
+        <span>•</span>
+        <span>BASED IN COCHIN</span>
+        <span>•</span>
+        <span>EDUCATIONIST · ENTREPRENEUR · ACTIVIST</span>
+        <span>•</span>
+      </div>
+    </div>
+
+    <section aria-labelledby="work-heading">
+      <div class="section-head">
+        <h2 id="work-heading">Selected work</h2>
+        <a class="see-all" href="work.html">View all →</a>
+      </div>
+      <div class="card-grid">
+      <article class="card">
+        <h3>Beyond Born - Early Education Centre</h3>
+        <p>We're reimagining [INTENTIONALLY] early education through play, purpose, and possibility.</p>
+        <div class="tags">
+          <span class="tag">Brand</span>
+          <span class="tag">Education</span>
+          <span class="tag">Early Learning</span>
+          <span class="tag">Content</span>
+        </div>
+        <a class="card-link" href="https://beyondborn.in/" target="_blank" rel="noopener">View project →</a>
+      </article>
+      <article class="card">
+        <h3>Pehia Foundation</h3>
+        <p>What started as a small community became a movement for inclusion. Pehia brings people together to learn, collaborate, and create impact.</p>
+        <div class="tags">
+          <span class="tag">NGO</span>
+          <span class="tag">Inclusion</span>
+          <span class="tag">Community</span>
+          <span class="tag">Collaboration</span>
+        </div>
+        <a class="card-link" href="https://pehia.org" target="_blank" rel="noopener">View project →</a>
+      </article>
+      <article class="card">
+        <h3>Children's Book</h3>
+        <p>An interactive storybook for children and a practical teaching guide for educators. Every page sparks conversations, hands-on learning, and moments of discovery.</p>
+        <div class="tags">
+          <span class="tag">Writing</span>
+          <span class="tag">Children's Book</span>
+          <span class="tag">Launching soon!</span>
+        </div>
+        <a class="card-link" href="work.html">View project →</a>
+      </article>
+    </div>
+    </section>
+
+    <section aria-labelledby="blog-heading">
+      <div class="section-head">
+        <h2 id="blog-heading">Latest writing</h2>
+        <a class="see-all" href="blog.html">Read the blog →</a>
+      </div>
+      <ul class="post-list" id="home-post-list">
+        <li class="post-item"><a href="blog.html">Loading posts…</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:10px;">
+      <span>© <span id="year"></span> Sreepriya Radhakrishnan</span>
+      <span>Built with white &amp; orange.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="blog.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    // Show up to 2 latest posts on the homepage
+    loadPosts().then((posts) => {
+      const list = document.getElementById("home-post-list");
+      list.innerHTML = "";
+      posts.slice(0, 2).forEach((post) => {
+        const li = document.createElement("li");
+        li.className = "post-item";
+        li.innerHTML = `
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+            <a href="post.html?slug=${post.slug}">${post.title}</a>
+            <span style="display: flex; gap: 6px; flex-wrap: wrap;">
+              ${post.tags ? post.tags.map(tag => `<span class="tag" style="margin: 0; padding: 2px 8px; font-size: 0.65rem; border-color: var(--ink);">${tag}</span>`).join("") : ""}
+            </span>
+          </div>
+          <span class="post-date">${post.date}</span>
+        `;
+        list.appendChild(li);
+      });
+      if (posts.length === 0) {
+        list.innerHTML = '<li class="post-item"><a href="blog.html">No posts yet — check back soon</a></li>';
+      }
+    });
+  </script>
+
+</body>
+
+</html>

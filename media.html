@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Media &amp; Press — Sreepriya Radhakrishnan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="nav-pill">
+      <a class="brand" href="index.html">Sreepriya Radhakrishnan<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="media.html" aria-current="page">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrap">
+
+    <section class="page-head">
+      <h1>Media &amp; Press</h1>
+      <p>A curated collection of talks, video features, and news reports highlighting my work in early childhood
+        education, community building, and social activism.</p>
+    </section>
+
+    <section aria-labelledby="videos-heading" style="margin-top: 40px; margin-bottom: 60px;">
+      <div class="section-head">
+        <h2 id="videos-heading">Videos &amp; Features</h2>
+      </div>
+      <div class="card-grid" id="videos-grid">
+        <!-- Rendered by JavaScript -->
+      </div>
+    </section>
+
+    <section aria-labelledby="press-heading" style="margin-bottom: 80px;">
+      <div class="section-head">
+        <h2 id="press-heading">Newspaper Reports &amp; Articles</h2>
+      </div>
+      <div class="card-grid" id="press-grid">
+        <!-- Rendered by JavaScript -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:10px;">
+      <span>© <span id="year"></span> Sreepriya Radhakrishnan</span>
+      <span>Built with white &amp; orange.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Data for YouTube videos
+    const videos = [
+      {
+        title: "ഓരോ നിമിഷവും ഒരു പുതിയ തുടക്കമാണ് | Sreepriya Radhakrishnan | Josh Talks Malayalam",
+        description: "Sreepriya sharing her inspiring journey of building Pehia Foundation, working towards gender equality in tech, and finding new beginnings.",
+        youtubeId: "ZG-gXuDPNtA",
+        date: "Dec 2022"
+      },
+      {
+        title: "Bridging the Gender Gap in the Tech Industry — Pehia Foundation",
+        description: "A talk on Sreepriya Radhakrishnan's journey starting a community in 2017 to bridge the gender gap in tech.",
+        youtubeId: "y-XU7AjNfXc",
+        date: "2021"
+      },
+      {
+        title: "Pehia Organisation | SthreeShakthi Award 2018 contestant Science and technology",
+        description: "Pehia Foundation was honored with a nomination for the Stree Sakthi Award, recognizing its contribution to empowering women through technology, education, and community leadership.",
+        youtubeId: "ZSQW-4vvwJc",
+        date: "March 2018"
+      },
+      {
+        title: "24 STHREE | 13 FEBRUARY 2019 | 24 Special",
+        description: "Pehia Foundation featuring in 24 News Channel.",
+        youtubeId: "T0RbdbC_fHk",
+        date: "Feb 2019"
+      },
+      {
+        title: "Enfa Rose George and Sreepriya Radhakrishnan | Pehia Foundation | Smart Lady | Ladies Hour",
+        description: "An interview with Sreepriya Radhakrishnan and Enfa Rose George about Pehia Foundation's initiatives.",
+        youtubeId: "KkdLsRCnC_M",
+        date: "2018"
+      },
+      {
+        title: "Sthree Sakthi Awards 2018 — Science Feature",
+        description: "Asianet News feature covering Sreepriya Radhakrishnan's nomination for the Sthree Sakthi Awards 2018 in the science and technology category.",
+        youtubeId: "yyI36aIcEAo",
+        date: "2018"
+      },
+      {
+        title: "Sreepriya Radhakrishnan — Live on Clarify",
+        description: "A live conversation on Sreepriya's exciting journey creating Pehia.org, a non-profit working towards tech inclusion.",
+        youtubeId: "XYO471i72-o",
+        date: "2020"
+      },
+      {
+        title: "Live Talk With Sreepriya — Founder of Pehia.org",
+        description: "A live session detailing the objectives of Pehia Foundation in eliminating the gender gap in technology.",
+        youtubeId: "SH6u9rqPOrM",
+        date: "2020"
+      }
+    ];
+
+    // Data for Newspaper reports
+    const press = [
+      {
+        title: "An Inspiration to Women Techies",
+        publication: "The New Indian Express",
+        description: "A profile highlighting Sreepriya Radhakrishnan and Enfa George's work in founding Pehia, aiming for a gender-equal IT ecosystem.",
+        link: "https://www.newindianexpress.com/amp/story/cities/kochi/2019/sep/05/an-inspiration-to-women-techies-2029154.html",
+        date: "Sep 2019",
+        tags: ["Profile", "Women in Tech"]
+      },
+      {
+        title: "Helping Hands Restore Classrooms, School Park",
+        publication: "The Hindu",
+        description: "Detailing the collaborative post-flood restoration efforts where professionals, students, and teachers worked together to rebuild playgrounds and classrooms.",
+        link: "https://www.thehindu.com/todays-paper/tp-national/tp-kerala/helping-hands-restore-classrooms-school-park/article24859806.ece",
+        date: "Sep 2018",
+        tags: ["Flood Relief", "Community"]
+      }
+    ];
+
+    // Render Videos
+    const videosGrid = document.getElementById("videos-grid");
+    videosGrid.innerHTML = videos.map((v) => `
+      <article class="video-card">
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/${v.youtubeId}" 
+            title="${v.title}" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="video-info">
+          <h3>${v.title}</h3>
+          <p>${v.description}</p>
+          <span class="date">${v.date}</span>
+        </div>
+      </article>
+    `).join("");
+
+    // Render Press
+    const pressGrid = document.getElementById("press-grid");
+    pressGrid.innerHTML = press.map((p) => `
+      <article class="card">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 4px;">
+          <span class="tag" style="margin: 0; background: var(--sage); border-color: var(--ink);">${p.publication}</span>
+          <span class="post-date" style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--moss); white-space: nowrap;">${p.date}</span>
+        </div>
+        <h3 style="font-family: var(--font-display); font-size: 1.3rem; margin: 8px 0 0;">${p.title}</h3>
+        <p style="margin: 0 0 12px; color: var(--ink); opacity: 0.85; font-size: 0.95rem; line-height: 1.5;">${p.description}</p>
+        <div style="margin-top: auto; display: flex; flex-direction: column; gap: 8px;">
+          <div class="tags" style="margin-bottom: 8px;">
+            ${p.tags ? p.tags.map(t => `<span class="tag" style="font-size: 0.65rem; padding: 2px 8px; margin: 0 4px 4px 0;">${t}</span>`).join("") : ""}
+          </div>
+          <a class="card-link" href="${p.link}" target="_blank" rel="noopener" style="align-self: flex-start;">Read report →</a>
+        </div>
+      </article>
+    `).join("");
+  </script>
+
+</body>
+
+</html>

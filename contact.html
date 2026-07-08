@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Sreepriya Radhakrishnan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="nav-pill">
+      <a class="brand" href="index.html">Sreepriya Radhakrishnan<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrap">
+
+    <div class="contact-block">
+      <h1>Let's talk.</h1>
+      <p>Have a project in mind, or just want to say hi? Reach me here.</p>
+      <div class="contact-links">
+        <a href="mailto:you@example.com">Email <span>coonect[@]sreepriya[dot]xyz →</span></a>
+        <a href="https://instagram.com/yourusername" target="_blank" rel="noopener">Instagram <span>@ysreepriya.xyz
+            →</span></a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn <span>/in/sreepriyadotxyz
+            →</span></a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:10px;">
+      <span>© <span id="year"></span> Sreepriya Radhakrishnan</span>
+      <span>Built with white &amp; orange.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+</body>
+
+</html>

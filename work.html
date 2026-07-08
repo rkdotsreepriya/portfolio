@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Work — Sreepriya Radhakrishnan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="nav-pill">
+      <a class="brand" href="index.html">Sreepriya Radhakrishnan<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrap">
+
+    <section class="page-head">
+      <h1>Work</h1>
+      <p>Every role I've taken has had one mission: leave people better than I found them.</p>
+    </section>
+
+    <div class="card-grid" id="work-grid"></div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:10px;">
+      <span>© <span id="year"></span> Sreepriya Radhakrishnan</span>
+      <span>Built with white &amp; orange.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Edit this array to add, remove, or update projects.
+    const projects = [
+      {
+        title: "Beyond Born - Early Education Centre",
+        description: "We're reimagining [INTENTIONALLY] early education through play, purpose, and possibility.",
+        tags: ["Brand", "Education", "Early Learning", "Content"],
+        link: "https://beyondborn.in/"
+      },
+      {
+        title: "Pehia Foundation",
+        description: "What started as a small community became a movement for inclusion.Pehia brings people together to learn, collaborate, and create impact..",
+        tags: ["NGO", "Inclusion", "Community", "Collaboration"],
+        link: "https://pehia.org"
+      },
+      {
+        title: "Children's Book",
+        description: "An interactive storybook for children and a practical teaching guide for educators.Every page sparks conversations, hands-on learning, and moments of discovery.",
+        tags: ["Writing", "Children's Book", "Launching soon!"],
+        link: "#"
+      },
+      {
+        title: "Workbook for Preschools and Kindergartens",
+        description: "Designed a comprehensive Pre-K to UKG workbook series for another preschool chain in Kochi, integrating literacy, numeracy, and thematic learning into engaging, developmentally appropriate experiences.",
+        tags: ["Curriculum Design", "Workbook Series", "Content Development"],
+        link: "#"
+      }
+    ];
+
+    const grid = document.getElementById("work-grid");
+    grid.innerHTML = projects.map((p) => `
+    <article class="card">
+      <h3>${p.title}</h3>
+      <p>${p.description}</p>
+      <div class="tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
+      <a class="card-link" href="${p.link}">View project →</a>
+    </article>
+  `).join("");
+  </script>
+
+</body>
+
+</html>
