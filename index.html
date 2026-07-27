@@ -18,13 +18,13 @@
 
   <header class="site-header">
     <nav class="nav-pill">
-      <a class="brand" href="index.html">Sreepriya Radhakrishnan<span>.</span></a>
+      <a class="brand" href="index">Sreepriya Radhakrishnan<span>.</span></a>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="work.html">Work</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="media.html">Media</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index">Home</a></li>
+        <li><a href="work">Work</a></li>
+        <li><a href="blog">Blog</a></li>
+        <li><a href="media">Media</a></li>
+        <li><a href="contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -42,8 +42,8 @@
         figured out.
       </p>
       <div class="hero-actions">
-        <a class="btn" href="work.html">See my work →</a>
-        <a class="btn ghost" href="contact.html"
+        <a class="btn" href="work">See my work →</a>
+        <a class="btn ghost" href="contact"
           style="background: var(--ink); border-color: var(--ink); color: var(--paper);">Get in touch</a>
       </div>
     </section>
@@ -68,7 +68,7 @@
     <section aria-labelledby="work-heading">
       <div class="section-head">
         <h2 id="work-heading">Selected work</h2>
-        <a class="see-all" href="work.html">View all →</a>
+        <a class="see-all" href="work">View all →</a>
       </div>
       <div class="card-grid">
       <article class="card">
@@ -101,7 +101,7 @@
           <span class="tag">Children's Book</span>
           <span class="tag">Launching soon!</span>
         </div>
-        <a class="card-link" href="work.html">View project →</a>
+        <a class="card-link" href="work">View project →</a>
       </article>
     </div>
     </section>
@@ -109,10 +109,10 @@
     <section aria-labelledby="blog-heading">
       <div class="section-head">
         <h2 id="blog-heading">Latest writing</h2>
-        <a class="see-all" href="blog.html">Read the blog →</a>
+        <a class="see-all" href="blog">Read the blog →</a>
       </div>
       <ul class="post-list" id="home-post-list">
-        <li class="post-item"><a href="blog.html">Loading posts…</a></li>
+        <li class="post-item"><a href="blog">Loading posts…</a></li>
       </ul>
     </section>
 
@@ -138,7 +138,7 @@
         li.className = "post-item";
         li.innerHTML = `
           <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-            <a href="post.html?slug=${post.slug}">${post.title}</a>
+            <a href="post?slug=${post.slug}">${post.title}</a>
             <span style="display: flex; gap: 6px; flex-wrap: wrap;">
               ${post.tags ? post.tags.map(tag => `<span class="tag" style="margin: 0; padding: 2px 8px; font-size: 0.65rem; border-color: var(--ink);">${tag}</span>`).join("") : ""}
             </span>
@@ -148,7 +148,7 @@
         list.appendChild(li);
       });
       if (posts.length === 0) {
-        list.innerHTML = '<li class="post-item"><a href="blog.html">No posts yet — check back soon</a></li>';
+        list.innerHTML = '<li class="post-item"><a href="blog">No posts yet — check back soon</a></li>';
       }
     });
   </script>

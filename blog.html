@@ -17,13 +17,13 @@
 
   <header class="site-header">
     <nav class="nav-pill">
-      <a class="brand" href="index.html">Sreepriya Radhakrishnan<span>.</span></a>
+      <a class="brand" href="index">Sreepriya Radhakrishnan<span>.</span></a>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="work.html">Work</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="media.html">Media</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index">Home</a></li>
+        <li><a href="work">Work</a></li>
+        <li><a href="blog">Blog</a></li>
+        <li><a href="media">Media</a></li>
+        <li><a href="contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -66,7 +66,7 @@
       list.innerHTML = posts.map((post) => `
       <li class="post-item">
         <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-          <a href="post.html?slug=${post.slug}">${post.title}</a>
+          <a href="post?slug=${post.slug}">${post.title}</a>
           <span style="display: flex; gap: 6px; flex-wrap: wrap;">
             ${post.tags ? post.tags.map(tag => `<span class="tag" style="margin: 0; padding: 2px 8px; font-size: 0.65rem; border-color: var(--ink);">${tag}</span>`).join("") : ""}
           </span>
