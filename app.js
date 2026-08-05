@@ -202,7 +202,7 @@ const projectsData = {
     author: 'Krishnapriya, Parent & Community Collaborator',
     metrics: [
       { num: '2', label: 'Premium Centers Built' },
-      { num: '1000+', label: 'Children Impacted' },
+      { num: '500+', label: 'Children Impacted' },
       { num: '95%', label: 'Parent Satisfaction Rate' }
     ]
   },
@@ -222,7 +222,7 @@ const projectsData = {
     author: 'Yadav Jayachandran, PEHIA Patron',
     metrics: [
       { num: '5000+', label: 'Community Members' },
-      { num: '50+', label: 'Tech Workshops Done' },
+      { num: '100+', label: 'Tech Workshops Done' },
       { num: '120+', label: 'Mentors Onboarded' }
     ]
   },
@@ -231,7 +231,7 @@ const projectsData = {
     role: 'Lead Curriculum Designer',
     client: 'Early Childhood Publications',
     year: '2021 - 2023',
-    tags: ['Curriculum Design', 'Activity-Based Learning', 'Graphic Layouts', 'Cognitive Milestones'],
+    tags: ['Curriculum Design', 'Activity-Based Learning', 'Graphic Layouts'],
     heroImage: 'assets/workbook_mockups.png',
     challenge: 'Preschool workbooks are commonly dry, black-and-white printouts focused on tracing letters repetitively, which disengages early learners and fails to develop broader motor and critical thinking skills.',
     approach: 'Designed an original, visually engaging series of workbooks for Pre-KG, LKG, and UKG levels. The series integrates physical, hands-on tasks with printed guides, using gamified themes that focus on cognitive milestones, fine motor skills, numeracy, and emergent literacy.',
@@ -240,7 +240,7 @@ const projectsData = {
     lessons: 'Typography and white space are as educational as content. For a four-year-old, a cluttered page causes cognitive overload. Premium layouts, soft colors, and generous spacing guide the child\'s visual attention naturally and turn workbook exercises into discovery games.',
     metrics: [
       { num: 'PREK-UKG', label: 'Core Grade Levels Covered' },
-      { num: '100+', label: 'Original Learning Templates' },
+      { num: '500+', label: 'Original Learning Templates' },
       { num: '300+', label: 'Copies Distributed' }
     ]
   },
