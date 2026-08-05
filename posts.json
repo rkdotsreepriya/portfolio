@@ -1,5 +1,17 @@
 [
   {
+    "title": "Story of a successful crowdfunding campaign",
+    "date": "2020-07-16",
+    "tags": [
+      "Crowdfunding",
+      "CMX Summit"
+    ],
+    "description": "My experience of raising funds for the CMX Summit.",
+    "image": "assets/c3.png",
+    "slug": "crowdfunding",
+    "readTime": "5 min read"
+  },
+  {
     "title": "From the God's Own Country to the City of Dream!",
     "date": "2019-07-16",
     "tags": [
