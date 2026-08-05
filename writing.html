@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Read Sreepriya Radhakrishnan's essays, articles, and frameworks on early childhood education, pedagogy, artificial intelligence, and learning communities.">
+  <meta name="keywords"
+    content="Sreepriya Radhakrishnan, Blog, Writing, Education Innovation, Pedagogy, Early Childhood Education, AI in Education, Community Building">
+  <meta name="author" content="Sreepriya Radhakrishnan">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Writing & Reflections | Sreepriya Radhakrishnan">
+  <meta property="og:description"
+    content="Read Sreepriya Radhakrishnan's essays, articles, and frameworks on early childhood education, pedagogy, artificial intelligence, and learning communities.">
+  <meta property="og:image" content="assets/ece_future_cover.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Writing & Reflections | Sreepriya Radhakrishnan">
+  <meta property="twitter:description"
+    content="Read Sreepriya Radhakrishnan's essays, articles, and frameworks on early childhood education, pedagogy, artificial intelligence, and learning communities.">
+  <meta property="twitter:image" content="assets/ece_future_cover.png">
+
+  <title>Writing & Reflections | Sreepriya Radhakrishnan</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Default Schema Markup -->
+  <script type="application/ld+json" id="schema-markup">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Writing & Reflections | Sreepriya Radhakrishnan",
+    "description": "Essays and frameworks on education, technology, and communities by Sreepriya Radhakrishnan."
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       GLOBAL HEADER
+       ========================================================================== -->
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo" aria-label="Sreepriya Radhakrishnan Home">
+        Sreepriya Radhakrishnan
+        <span class="subtitle">Education Innovation</span>
+      </a>
+
+      <nav id="mainNav">
+        <ul class="nav-links">
+          <li><a href="index.html#about">Overview</a></li>
+          <li><a href="index.html#projects">Case Studies</a></li>
+          <li><a href="index.html#what-i-do">What I Do</a></li>
+          <li><a href="index.html#speaking">Speaking</a></li>
+          <li><a href="writing" class="active">Writing</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-controls">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle light and dark theme">
+          <span class="theme-toggle-thumb">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m10.607 10.607l.707.707M12 7a5 5 0 100 10 5 5 0 000-10z"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </span>
+        </button>
+
+        <button id="mobileNavToggle" class="mobile-nav-toggle" aria-label="Toggle mobile navigation menu">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main style="padding-top: 100px;">
+    <!-- ==========================================================================
+         WRITING HERO SECTION
+         ========================================================================== -->
+    <section class="writing-hero section-padding">
+      <div class="container">
+        <div class="reveal">
+          <span class="section-pretitle">Insights &amp; Essays</span>
+          <h1 class="serif-title" style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1.5rem; line-height: 1.1;">
+            Writing &amp; Reflections</h1>
+          <p
+            style="max-width: 600px; font-size: 1.2rem; line-height: 1.6; color: var(--text-secondary); font-weight: 300;">
+            This is where I share ideas, experiences, and insights from my journey as an educationist, entrepreneur,
+            program manager, and lifelong learner. From early childhood education and leadership to technology,
+            innovation, business, and personal growth, these articles reflect what I'm learning and building along the
+            way.
+
+            I hope you find something here that inspires a new perspective or helps you on your own journey.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURED POSTS
+         ========================================================================== -->
+    <section class="featured-section section-padding"
+      style="background-color: var(--bg-secondary); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+      <div class="container">
+        <h2 class="serif-subtitle" style="font-size: 1.8rem; margin-bottom: 2.5rem;">Featured Articles</h2>
+        <div class="featured-grid" id="featuredGrid">
+          <!-- Dynamically populated latest 3 posts -->
+          <div
+            style="text-align: center; color: var(--text-secondary); padding: 3rem 0; width: 100%; grid-column: 1/-1;">
+            Loading featured posts...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ALL BLOGS & SEARCH
+         ========================================================================== -->
+    <section class="all-blogs-section section-padding">
+      <div class="container">
+        <div class="search-filter-layout">
+          <!-- Left side: Filters -->
+          <div class="search-sidebar">
+            <div class="search-box-wrapper">
+              <input type="text" id="searchInput" placeholder="Search articles by title or keyword..."
+                aria-label="Search articles">
+              <svg viewBox="0 0 24 24" class="search-icon">
+                <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" fill="none" />
+                <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+
+            <div class="tag-filter-container">
+              <h3
+                style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; color: var(--text-secondary);">
+                Filter by Tag</h3>
+              <div class="tag-pills" id="tagPills">
+                <!-- Dynamically populated tags -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Right side: List -->
+          <div class="blogs-list-wrapper">
+            <h2 class="serif-subtitle" style="font-size: 1.8rem; margin-bottom: 2rem;" id="resultsTitle">All Articles
+            </h2>
+            <div class="blogs-list" id="blogsList">
+              <!-- Dynamically populated list of blogs -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       GLOBAL FOOTER
+       ========================================================================== -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-copy">
+        &copy; 2026 <span class="serif-brand">Sreepriya Radhakrishnan</span>. All rights reserved.
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/sreepriyadotxyz" target="_blank" rel="noopener"
+          class="footer-social-link">LinkedIn</a>
+        <a href="mailto:connect@sreepriya.xyz" class="footer-social-link">Email</a>
+        <a href="https://www.instagram.com/sreepriya.xyz" target="_blank" rel="noopener"
+          class="footer-social-link">Instagram</a>
+        <a href="https://beyondborn.in" target="_blank" rel="noopener" class="footer-social-link">Beyond Born</a>
+      </div>
+
+      <div class="footer-accessibility">
+        This website is built with vanilla components, optimized for WCAG 2.1 AA accessibility standards, semantic
+        layout architecture, and instant pagespeed.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       FULLSCREEN OVERLAY MODAL FOR ARTICLES
+       ========================================================================== -->
+  <div class="overlay-modal" id="overlayModal">
+    <div class="overlay-header">
+      <div class="overlay-header-container">
+        <span class="logo">
+          Sreepriya Radhakrishnan
+          <span class="subtitle">Writing Case</span>
+        </span>
+        <button class="overlay-close-btn" id="closeOverlayBtn" aria-label="Close article view">
+          Close Article
+          <svg viewBox="0 0 24 24">
+            <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="overlay-content" id="overlayInner">
+      <!-- Dynamic Article Content goes here -->
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="writing.js"></script>
+</body>
+
+</html>

@@ -1,160 +1,705 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sreepriya Radhakrishnan — EDUCATIONIST &amp; COMMUNITY BUILDER </title>
-  <meta name="description" content="Personal site of Sreepriya Radhakrishnan — work, writing, and contact." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Sreepriya Radhakrishnan is an education entrepreneur, program manager, curriculum designer, and community builder in India. Co-founder of PEHIA Foundation and Founder of Beyond Born Early Education Centre.">
+  <meta name="keywords"
+    content="Sreepriya Radhakrishnan, Education Entrepreneur India, Program Manager Kerala, Curriculum Designer India, Education Consultant India, Community Builder India, Early Childhood Education, Women in Technology, Education Innovation, Program Leadership">
+  <meta name="author" content="Sreepriya Radhakrishnan">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sreepriya Radhakrishnan | Education Entrepreneur & Program Manager">
+  <meta property="og:description"
+    content="Building education ecosystems. Leading programs. Creating lasting impact. Explore the portfolio, curriculum workbooks, and initiatives of Sreepriya Radhakrishnan.">
+  <meta property="og:image" content="assets/workbook_mockups.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Sreepriya Radhakrishnan | Education Entrepreneur & Program Manager">
+  <meta property="twitter:description"
+    content="Building education ecosystems. Leading programs. Creating lasting impact. Explore the portfolio, curriculum workbooks, and initiatives of Sreepriya Radhakrishnan.">
+  <meta property="twitter:image" content="assets/workbook_mockups.png">
+
+  <title>Sreepriya Radhakrishnan | Education Entrepreneur & Program Manager</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema Markup (Structured Data) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sreepriya Radhakrishnan",
+    "url": "https://beyondborn.in",
+    "sameAs": [
+      "https://www.linkedin.com/in/sreepriyadotxyz",
+      "https://www.instagram.com/sreepriya.xyz"
+    ],
+    "jobTitle": "Education Entrepreneur & Program Manager",
+    "worksFor": [
+      {
+        "@type": "Organization",
+        "name": "Beyond Born Early Education Centre"
+      },
+      {
+        "@type": "Organization",
+        "name": "PEHIA Foundation"
+      }
+    ],
+    "description": "Education Entrepreneur, Program Manager, Curriculum Designer, and Community Builder based in India. Co-founder of PEHIA Foundation and Founder of Beyond Born Early Education Centre.",
+    "knowsAbout": ["Early Childhood Education", "Curriculum Design", "Program Management", "Community Building", "Education Innovation", "Women in Technology"]
+  }
+  </script>
 </head>
 
 <body>
 
-  <header class="site-header">
-    <nav class="nav-pill">
-      <a class="brand" href="index">Sreepriya Radhakrishnan<span>.</span></a>
-      <ul class="nav-links">
-        <li><a href="index">Home</a></li>
-        <li><a href="work">Work</a></li>
-        <li><a href="blog">Blog</a></li>
-        <li><a href="media">Media</a></li>
-        <li><a href="contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <!-- ==========================================================================
+       GLOBAL HEADER
+       ========================================================================== -->
+  <header>
+    <div class="header-container">
+      <a href="#" class="logo" aria-label="Sreepriya Radhakrishnan Home">
+        Sreepriya Radhakrishnan
+        <span class="subtitle">Education Innovation</span>
+      </a>
 
-  <main class="wrap">
+      <nav id="mainNav">
+        <ul class="nav-links">
+          <li><a href="#about" class="active">Overview</a></li>
+          <li><a href="#projects">Case Studies</a></li>
+          <li><a href="#what-i-do">What I Do</a></li>
+          <li><a href="#speaking">Speaking</a></li>
+          <li><a href="writing.html">Writing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-    <section class="hero">
-      <p class="eyebrow">// some professional &amp; personal notes.</p>
-      <h1>Hi, I'm<br />Sreepriya Radhakrishnan.</h1>
-      <div class="sticker">currently pursuing MSc in Psychology and building Early Education Centres.!</div>
-      <p class="hero-desc">
-        Hey! You can call me "Sree". I am an ENTREPRENEUR, EDUCATOR, COMMUNITY BUILDER and an ACTIVIST.
-        A Professional finger-painting enthusiast. Accidental CEO. Raising curious minds while pretending I've got it
-        all
-        figured out.
-      </p>
-      <div class="hero-actions">
-        <a class="btn" href="work">See my work →</a>
-        <a class="btn ghost" href="contact"
-          style="background: var(--ink); border-color: var(--ink); color: var(--paper);">Get in touch</a>
-      </div>
-    </section>
+      <div class="nav-controls">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle light and dark theme">
+          <span class="theme-toggle-thumb">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m10.607 10.607l.707.707M12 7a5 5 0 100 10 5 5 0 000-10z"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </span>
+        </button>
 
-    <div class="strip">
-      <div class="strip-track">
-        <span>OPEN TO FREELANCE WORK</span>
-        <span>•</span>
-        <span>BASED IN COCHIN</span>
-        <span>•</span>
-        <span>EDUCATIONIST · ENTREPRENEUR · ACTIVIST</span>
-        <span>•</span>
-        <span>OPEN TO FREELANCE WORK</span>
-        <span>•</span>
-        <span>BASED IN COCHIN</span>
-        <span>•</span>
-        <span>EDUCATIONIST · ENTREPRENEUR · ACTIVIST</span>
-        <span>•</span>
+        <button id="mobileNavToggle" class="mobile-nav-toggle" aria-label="Toggle mobile navigation menu">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
       </div>
     </div>
+  </header>
 
-    <section aria-labelledby="work-heading">
-      <div class="section-head">
-        <h2 id="work-heading">Selected work</h2>
-        <a class="see-all" href="work">View all →</a>
-      </div>
-      <div class="card-grid">
-        <article class="card">
-          <h3>Beyond Born - Early Education Centre</h3>
-          <p>We're reimagining [INTENTIONALLY] early education through play, purpose, and possibility.</p>
-          <div class="tags">
-            <span class="tag">Brand</span>
-            <span class="tag">Education</span>
-            <span class="tag">Early Learning</span>
-            <span class="tag">Content</span>
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero" id="home">
+      <div class="hero-bg-blur"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="hero-pretitle text-reveal-container">
+            <span class="text-reveal-item">Education Entrepreneur & Program Manager</span>
+          </span>
+          <h1 class="hero-title text-reveal-container">
+            <span class="text-reveal-item" style="animation-delay: 0.2s;">Building Education.</span>
+            <span class="text-reveal-item serif-bold" style="animation-delay: 0.4s;">Leading Programs.</span>
+            <span class="text-reveal-item" style="animation-delay: 0.6s;">Creating Impact.</span>
+          </h1>
+          <div class="hero-taglines reveal reveal-delay-2">
+            <p>I turn ideas into meaningful learning experiences. I build products, programs, and communities that help
+              people grow.</p>
           </div>
-          <a class="card-link" href="https://beyondborn.in/" target="_blank" rel="noopener">View project →</a>
-        </article>
-        <article class="card">
-          <h3>Pehia Foundation</h3>
-          <p>What started as a small community became a movement for inclusion. Pehia brings people together to learn,
-            collaborate, and create impact.</p>
-          <div class="tags">
-            <span class="tag">NGO</span>
-            <span class="tag">Inclusion</span>
-            <span class="tag">Community</span>
-            <span class="tag">Collaboration</span>
+          <div class="hero-cta reveal reveal-delay-3">
+            <a href="#contact" class="btn btn-primary">Work With Me</a>
+            <a href="#projects" class="btn btn-secondary">Explore Projects</a>
           </div>
-          <a class="card-link" href="https://pehia.org" target="_blank" rel="noopener">View project →</a>
-        </article>
-        <article class="card">
-          <h3>Children's Book</h3>
-          <p>An interactive storybook for children and a practical teaching guide for educators. Every page sparks
-            conversations, hands-on learning, and moments of discovery.</p>
-          <div class="tags">
-            <span class="tag">Writing</span>
-            <span class="tag">Children's Book</span>
-            <span class="tag">Launching soon!</span>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay-4">
+          <div class="floating-card-wrapper glow-card">
+            <div class="floating-card-bg-grid"></div>
+            <div class="card-portrait">
+              <img src="assets/sreepriya.jpg" alt="Sreepriya Radhakrishnan">
+            </div>
+            <div class="card-philosophy-quote">
+              "I believe meaningful education happens when curiosity meets opportunity, and thoughtful programs create
+              lasting impact."
+            </div>
+            <div class="card-footer">
+              <span class="card-footer-text">Personal Philosophy</span>
+              <div class="card-footer-dots">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
           </div>
-          <a class="card-link" href="work">View project →</a>
-        </article>
+        </div>
       </div>
     </section>
 
-    <section aria-labelledby="blog-heading">
-      <div class="section-head">
-        <h2 id="blog-heading">Latest writing</h2>
-        <a class="see-all" href="blog">Read the blog →</a>
+    <!-- ==========================================================================
+         PHILOSOPHY SECTION
+         ========================================================================== -->
+    <section class="philosophy section-padding">
+      <div class="container">
+        <div class="philosophy-quote-wrapper reveal">
+          <span class="quote-icon">“</span>
+          <blockquote class="philosophy-quote">
+            "I don't just manage projects—I build ecosystems that create lasting impact."
+          </blockquote>
+          <span class="philosophy-author">Sreepriya Radhakrishnan</span>
+        </div>
       </div>
-      <ul class="post-list" id="home-post-list">
-        <li class="post-item"><a href="blog">Loading posts…</a></li>
-      </ul>
     </section>
 
+    <!-- ==========================================================================
+         WHO I AM & VALUES
+         ========================================================================== -->
+    <section class="who-we-are section-padding" id="about">
+      <div class="container who-we-are-grid">
+        <div class="who-we-are-left">
+          <span class="section-pretitle">The Architect</span>
+          <h2 class="reveal">Who I Am &<br>My Mission</h2>
+        </div>
+
+        <div class="who-we-are-right reveal">
+          <div class="who-text">
+            <p>I am an entrepreneur and program manager passionate about designing meaningful educational experiences. I
+              believe education should not merely transfer knowledge—<strong>it should transform lives.</strong></p>
+            <br>
+            <p>Over the years I have built educational institutions, designed curriculum, launched learning products,
+              managed programs, built communities, and led multidisciplinary projects. My strength lies in connecting
+              strategy with execution. I enjoy taking ambitious ideas from whiteboard discussions to real-world
+              implementation.</p>
+            <br>
+            <p><strong>My Mission:</strong> To build education systems that are more accessible, engaging, inclusive,
+              and future-ready. To empower children, educators, and communities through thoughtful design and meaningful
+              programs.</p>
+          </div>
+
+          <div class="values-header">
+            <h3>Core Values</h3>
+            <div class="values-grid">
+              <div class="value-card">
+                <div class="value-name">Purpose</div>
+                <div class="value-desc">Driving every action toward meaningful, long-term societal improvement.</div>
+              </div>
+              <div class="value-card">
+                <div class="value-name">Innovation</div>
+                <div class="value-desc">Integrating design thinking and AI to redefine pedagogical boundaries.</div>
+              </div>
+              <div class="value-card">
+                <div class="value-name">Execution</div>
+                <div class="value-desc">Transforming whiteboard strategies into tangible, scaling institutions.</div>
+              </div>
+              <div class="value-card">
+                <div class="value-name">Empathy</div>
+                <div class="value-desc">Placing human connection and child development at the core of designs.</div>
+              </div>
+              <div class="value-card">
+                <div class="value-name">Curiosity</div>
+                <div class="value-desc">Continuous search for better, more inclusive ways to deliver knowledge.</div>
+              </div>
+              <div class="value-card">
+                <div class="value-name">Leadership</div>
+                <div class="value-desc">Empowering cross-functional teams to build with clarity and purpose.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURED EXPERIENCE (THINGS I'VE BUILT)
+         ========================================================================== -->
+    <section class="experience section-padding" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-pretitle">Selected Work</span>
+          <h2 class="section-title">Things I've Built</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 01: Beyond Born -->
+          <div class="project-card glow-card reveal" data-project-id="beyondborn">
+            <div class="project-image-wrapper">
+              <img src="assets/bb-logo.png" alt="Beyond Born Early Education Centre Logo">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-role">Founder</span>
+                <span class="project-tag">Early Education</span>
+              </div>
+              <h3 class="project-card-title">Beyond Born Early Education Centre</h3>
+              <p class="project-description">Built and operate two premium preschool centres in Kochi focused on
+                child-centric, discovery-based early childhood education. Directed operations, parent experiences, and
+                spatial layouts.</p>
+              <div class="project-tags">
+                <span class="project-tag">Business</span>
+                <span class="project-tag">Curriculum Design</span>
+                <span class="project-tag">Teacher Development</span>
+              </div>
+              <span class="project-link">
+                View Case Study
+                <svg viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </div>
+
+          <!-- Project 02: PEHIA Foundation -->
+          <div class="project-card glow-card reveal" data-project-id="pehia">
+            <div class="project-image-wrapper">
+              <img src="assets/pehia.png" alt="PEHIA Foundation Logo">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-role">Co-Founder</span>
+                <span class="project-tag">Community Building</span>
+              </div>
+              <h3 class="project-card-title">PEHIA Foundation</h3>
+              <p class="project-description">Helped establish one of Kerala's leading women-in-tech non-profit
+                communities. Designed mentorship frameworks, corporate partnerships, and technical bootcamps to close
+                gender gaps.</p>
+              <div class="project-tags">
+                <span class="project-tag">Program Design</span>
+                <span class="project-tag">Volunteer Management</span>
+                <span class="project-tag">Strategic Planning</span>
+              </div>
+              <span class="project-link">
+                View Case Study
+                <svg viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </div>
+
+          <!-- Project 03: Educational Workbook Series -->
+          <div class="project-card glow-card reveal" data-project-id="workbooks">
+            <div class="project-image-wrapper">
+              <img src="assets/workbook_mockups.png" alt="Educational Workbook Series Mockup">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-role">Curriculum Designer</span>
+                <span class="project-tag">Product Design</span>
+              </div>
+              <h3 class="project-card-title">Educational Workbook Series</h3>
+              <p class="project-description">Designed original, highly interactive workbook series for Pre-KG, LKG, and
+                UKG. Focuses on Activity-Based Learning, school readiness, cognitive milestones, and fine motor skills.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Cognitive Progression</span>
+                <span class="project-tag">Tactile Integration</span>
+                <span class="project-tag">Literacy & Numeracy</span>
+              </div>
+              <span class="project-link">
+                View Case Study
+                <svg viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </div>
+
+
+    </section>
+
+    <!-- ==========================================================================
+         WHAT I DO (CAPABILITIES)
+         ========================================================================== -->
+    <section class="capabilities section-padding" id="what-i-do">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-pretitle">Expertise</span>
+          <h2 class="section-title">What I Do</h2>
+        </div>
+
+        <div class="capabilities-grid reveal">
+          <!-- Item 1 -->
+          <div class="capability-card glow-card">
+            <div class="capability-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="capability-title">Education Strategy</h3>
+              <p class="capability-description">Helping schools and organizations outline and build sustainable,
+                meaningful learning systems that grow.</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="capability-card glow-card">
+            <div class="capability-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="capability-title">Program Management</h3>
+              <p class="capability-description">Managing complex programs from whiteboard to real-world launch while
+                balancing stakeholders, budgets, and timelines.</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="capability-card glow-card">
+            <div class="capability-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zM12 6v6l4 2"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="capability-title">Curriculum Design</h3>
+              <p class="capability-description">Designing original, child-centric activities and workbook blueprints
+                rooted in progressive development milestones.</p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="capability-card glow-card">
+            <div class="capability-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 7a4 4 0 11-8 0 4 4 0 018 0zm14 14v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="capability-title">Community Building</h3>
+              <p class="capability-description">Fostering active engagement and peer-to-peer mentoring networks that
+                scale organically and drive change.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         IMPACT NUMBERS
+         ========================================================================== -->
+    <section class="impact section-padding" id="impact">
+      <div class="container">
+        <div class="impact-grid">
+          <div class="impact-item">
+            <span class="counter impact-number" data-target="2" data-suffix="+">0</span>
+            <span class="impact-label">Schools Built & Operated</span>
+          </div>
+          <div class="impact-item">
+            <span class="counter impact-number" data-target="100" data-suffix="+">0</span>
+            <span class="impact-label">Children Impacted</span>
+          </div>
+          <div class="impact-item">
+            <span class="counter impact-number" data-target="10" data-suffix="+">0</span>
+            <span class="impact-label">Curriculum Workbooks</span>
+          </div>
+          <div class="impact-item">
+            <span class="counter impact-number" data-target="2000" data-suffix="+">0</span>
+            <span class="impact-label">Community Members</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================================================
+         SKILLS SECTION
+         ========================================================================== -->
+    <section class="skills section-padding">
+      <div class="container skills-wrapper">
+        <div class="section-header reveal">
+          <span class="section-pretitle">The Toolkit</span>
+          <h2 class="section-title">Core Competencies</h2>
+        </div>
+
+        <div class="skills-grid reveal">
+          <span class="skill-tag">Program Management</span>
+          <span class="skill-tag">Curriculum Design</span>
+          <span class="skill-tag">Education Strategy</span>
+          <span class="skill-tag">Leadership</span>
+          <span class="skill-tag">Business Operations</span>
+          <span class="skill-tag">Community Building</span>
+          <span class="skill-tag">Stakeholder Management</span>
+          <span class="skill-tag">Workshop Facilitation</span>
+          <span class="skill-tag">Public Speaking</span>
+          <span class="skill-tag">Brand Building</span>
+          <span class="skill-tag">Design Thinking</span>
+          <span class="skill-tag">AI for Education</span>
+          <span class="skill-tag">Team Building</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SPEAKING & TRAINING
+         ========================================================================== -->
+    <section class="speaking section-padding" id="speaking">
+      <div class="container speaking-grid">
+        <div class="speaking-left reveal">
+          <span class="section-pretitle">Public Offerings</span>
+          <h2 class="magazine-title" style="margin-bottom: 2rem;">Speaking &amp;<br>Consulting</h2>
+
+          <div class="speaking-table">
+            <div class="speaking-row">
+              <span class="speaking-topic-name">Teacher Training &amp; Pedagogy</span>
+              <span class="speaking-topic-tag">Workshop</span>
+            </div>
+            <div class="speaking-row">
+              <span class="speaking-topic-name">AI in Early Childhood Classrooms</span>
+              <span class="speaking-topic-tag">Keynote</span>
+            </div>
+            <div class="speaking-row">
+              <span class="speaking-topic-name">Building Sustainable Communities</span>
+              <span class="speaking-topic-tag">Keynote</span>
+            </div>
+
+            <div class="speaking-row">
+              <span class="speaking-topic-name">Leadership in Early Ed Incubation</span>
+              <span class="speaking-topic-tag">Consulting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaking-right reveal">
+          <div class="speaking-cta-card">
+            <h3 class="speaking-cta-title">Request a Collaboration</h3>
+            <p class="speaking-cta-text">I am available for keynote presentations, specialized teacher workshops, and
+              institutional curriculum design consulting. Let's design programs that inspire educators and children.</p>
+            <a href="#contact" class="btn btn-primary" style="width: 100%;">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================================================
+         MEDIA & PRESS SECTION
+         ========================================================================== -->
+    <section class="media section-padding" id="media">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-pretitle">Press &amp; Recognition</span>
+          <h2 class="section-title">In the Media</h2>
+        </div>
+
+        <!-- Subsection 1: Key Honors & Recognitions -->
+        <div class="media-subsection reveal">
+          <h3 class="media-subtitle">Key Honors</h3>
+          <div class="honors-grid">
+            <!-- Honor Card 1: CMX Scholar -->
+            <div class="honor-card glow-card">
+              <div class="honor-badge">
+                <svg class="honor-icon" viewBox="0 0 24 24" width="16" height="16">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                    fill="currentColor" />
+                </svg>
+                <span>Global Recognition</span>
+              </div>
+              <h4 class="honor-title">CMX Scholar 2019</h4>
+              <p class="honor-desc">Selected as one of the few global scholars by CMX (the premier organization for
+                community professionals), recognizing Sreepriya's outstanding leadership, community architecture, and
+                contributions in building sustainable tech ecosystems.</p>
+              <div class="honor-meta">Awarded by CMX Global</div>
+            </div>
+
+            <!-- Honor Card 2: Asianet Nominee -->
+            <div class="honor-card glow-card">
+              <div class="honor-badge">
+                <svg class="honor-icon" viewBox="0 0 24 24" width="16" height="16">
+                  <path d="M12 15a3 3 0 100-6 3 3 0 000 6z" fill="currentColor" />
+                  <path fill-rule="evenodd"
+                    d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18a8 8 0 100-16 8 8 0 000 16z"
+                    clip-rule="evenodd" fill="currentColor" />
+                </svg>
+                <span>State Nominations</span>
+              </div>
+              <h4 class="honor-title">Asianet Stree Shakthi Award Nominee 2018</h4>
+              <p class="honor-desc">Nominated in the Science &amp; Technology category for pioneering work in closing
+                the gender digital gap in Kerala through non-profit leadership, community workshops, and technology
+                education initiatives.</p>
+              <div class="honor-meta">Nominated by Asianet News</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Subsection 2: Newspaper Reports & Articles -->
+        <div class="media-subsection reveal" style="margin-top: 5rem;">
+          <h3 class="media-subtitle">Press Reports</h3>
+          <div class="press-grid" id="pressGrid">
+            <!-- Dynamic Press Cards Loaded by JS -->
+          </div>
+        </div>
+
+        <!-- Subsection 3: Talks & Video Features -->
+        <div class="media-subsection reveal" style="margin-top: 5rem;">
+          <h3 class="media-subtitle">Videos &amp; Features</h3>
+          <div class="videos-grid" id="videosGrid">
+            <!-- Dynamic Video Cards Loaded by JS -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CALL TO ACTION & CONTACT
+         ========================================================================== -->
+    <section class="contact section-padding" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-info reveal">
+          <span class="section-pretitle">Get In Touch</span>
+          <h2>Let's build<br>something<br>meaningful.</h2>
+          <p>Whether you're building a school, scaling a curriculum product, starting a mentoring community, or planning
+            an ambitious education program, I'd love to collaborate.</p>
+
+          <div class="contact-channels">
+            <a href="https://www.linkedin.com/in/sreepriyadotxyz" target="_blank" rel="noopener"
+              class="contact-channel-item">
+              <div class="contact-channel-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.8v8.37h2.8v-4.67c0-.25.015-.51.09-.69.2-.5.65-1 1.41-1 1 0 1.39.75 1.39 1.86v4.5h2.8M6.5 8.37a1.37 1.37 0 1 0 0-2.75 1.37 1.37 0 0 0 0 2.75M8 18.5V10.13H5.2V18.5H8z"
+                    fill="currentColor" />
+                </svg>
+              </div>
+              <div class="contact-channel-details">
+                <span class="contact-channel-label">LinkedIn</span>
+                <span class="contact-channel-val">Sreepriya Radhakrishnan</span>
+              </div>
+            </a>
+
+            <a href="mailto:sreepriya@pehia.org" class="contact-channel-item">
+              <div class="contact-channel-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                    fill="currentColor" />
+                </svg>
+              </div>
+              <div class="contact-channel-details">
+                <span class="contact-channel-label">Email</span>
+                <span class="contact-channel-val">connect@sreepriya.xyz </span>
+              </div>
+            </a>
+
+            <a href="https://www.instagram.com/sreepriya.xyz" target="_blank" rel="noopener"
+              class="contact-channel-item">
+              <div class="contact-channel-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"
+                    fill="currentColor" />
+                </svg>
+              </div>
+              <div class="contact-channel-details">
+                <span class="contact-channel-label">Instagram</span>
+                <span class="contact-channel-val">@sreepriya.xyz</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper reveal">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" class="form-input" placeholder="Your Name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-input" placeholder="your@email.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" class="form-textarea"
+                placeholder="Describe your program, project, or collaboration ideas..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:10px;">
-      <span>© <span id="year"></span> Sreepriya Radhakrishnan</span>
-      <span>Built with white &amp; orange.</span>
+  <!-- ==========================================================================
+       GLOBAL FOOTER
+       ========================================================================== -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-copy">
+        &copy; 2026 <span class="serif-brand">Sreepriya Radhakrishnan</span>. All rights reserved.
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/sreepriyadotxyz\" target="_blank" rel="noopener"
+          class="footer-social-link">LinkedIn</a>
+        <a href="mailto:connect@sreepriya.xyz" class="footer-social-link">Email</a>
+        <a href="https://www.instagram.com/sreepriya.xyz" target="_blank" rel="noopener"
+          class="footer-social-link">Instagram</a>
+      </div>
+
+      <div class="footer-accessibility">
+        This website is built with vanilla components, optimized for WCAG 2.1 AA accessibility standards, semantic
+        layout architecture, and instant pagespeed.
+      </div>
     </div>
   </footer>
 
-  <script src="script.js"></script>
-  <script src="blog.js"></script>
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-    // Show up to 2 latest posts on the homepage
-    loadPosts().then((posts) => {
-      const list = document.getElementById("home-post-list");
-      list.innerHTML = "";
-      posts.slice(0, 2).forEach((post) => {
-        const li = document.createElement("li");
-        li.className = "post-item";
-        li.innerHTML = `
-          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-            <a href="post?slug=${post.slug}">${post.title}</a>
-            <span style="display: flex; gap: 6px; flex-wrap: wrap;">
-              ${post.tags ? post.tags.map(tag => `<span class="tag" style="margin: 0; padding: 2px 8px; font-size: 0.65rem; border-color: var(--ink);">${tag}</span>`).join("") : ""}
-            </span>
-          </div>
-          <span class="post-date">${post.date}</span>
-        `;
-        list.appendChild(li);
-      });
-      if (posts.length === 0) {
-        list.innerHTML = '<li class="post-item"><a href="blog">No posts yet — check back soon</a></li>';
-      }
-    });
-  </script>
+  <!-- ==========================================================================
+       FULLSCREEN OVERLAY MODAL
+       ========================================================================== -->
+  <div class="overlay-modal" id="overlayModal">
+    <div class="overlay-header">
+      <div class="overlay-header-container">
+        <span class="logo">
+          Sreepriya Radhakrishnan
+          <span class="subtitle">Case File</span>
+        </span>
+        <button class="overlay-close-btn" id="closeOverlayBtn" aria-label="Close case file view">
+          Close Case
+          <svg viewBox="0 0 24 24">
+            <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+    </div>
 
+    <div class="overlay-content" id="overlayInner">
+      <!-- Dynamic Case Study Content or Article Content goes here -->
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 
 </html>
