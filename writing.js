@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.classList.add('modal-open');
 
     // Fetch Full Post Content Markdown File
-    fetch(`posts/${slug}.md`)
+    fetch(`posts/${encodeURIComponent(slug)}.md`)
       .then(response => {
         if (!response.ok) {
           throw new Error(`Failed to load article content file: ${slug}.md`);
@@ -592,7 +592,7 @@ document.addEventListener('DOMContentLoaded', () => {
     overlayInner.innerHTML = '';
 
     // SEO URL reset
-    history.pushState(null, '', 'writing.html');
+    history.pushState(null, '', 'writing');
     resetMetaTags();
   }
 
