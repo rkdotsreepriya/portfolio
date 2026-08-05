@@ -1,7 +1,7 @@
 ---
 title: "From the God's Own Country to the City of Dream!"
 date: "2019-07-16"
-tags: ["Universe Simplify Foundation", "Mumbai", "Life in Mumbai"]
+tags: ["Universe Simplified Foundation", "Mumbai", "Life in Mumbai"]
 description: "My experience of moving from Kerala to Mumbai and my time at the Universe Simplify Foundation."
 image: "assets/mumbai.jpg"
 slug: "mumbai"
