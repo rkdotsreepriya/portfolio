@@ -3,7 +3,7 @@ title: "Zee Camp 2019"
 date: "2019-01-04"
 tags: ["Community Building", "Leadership", "Inclusion", "Transgender rights"]
 description: "Thirteen days of learning, fun, and meaningful connections"
-image: "assets/learning_communities_cover.png"
+image: "assets/ze.jpg"
 slug: "Zee Camp 2019"
 readTime: "4 Min Read"
 ---

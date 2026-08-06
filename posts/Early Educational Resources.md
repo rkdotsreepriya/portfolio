@@ -4,7 +4,7 @@ date: "2022-09-07"
 tags: ["Parenting", "Leadership", "Beyond Born"]
 description: "Early Educational Resources"
 slug: "Early Educational Resources"
-image: "assets/image.jpeg"
+image: "assets/books.jpg"
 readTime: "3 min read"
 ---
 

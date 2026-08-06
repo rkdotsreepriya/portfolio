@@ -27,6 +27,5 @@ Traveling in local trains was a completely different experience altogether. It w
 
 One of my favorite places to visit in Mumbai was the Flora Foundation, where you could buy second-hand books at a cheap rate. It was a fantastic place to hang out and explore new books.
 
-![Flora Fountain second-hand books](assets/mumbai4.png)
 
 My experience of moving from Kerala to Mumbai was life-changing. It developed me into a whole new person, and I will always be grateful for the lessons I learned during my time in the city of dreams.
