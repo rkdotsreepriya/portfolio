@@ -24,7 +24,7 @@ For the last four years, my life has revolved almost entirely around preschool e
 
 I wasn't looking for an escape. I want to be clear about that. I just wanted to see what else was out there, even for a couple of days.
 
-I'm not a die-hard comics person. I haven't read every Marvel arc or debated the multiverse timeline over chai. But I'd been to Kerala Pop Con and Indie Comic Fest in previous years, and what pulled me in wasn't really the comics themselves. It was everything around them — the cosplay, the artists hunched over their tables, the strangers bonding instantly over a shared fictional universe, the sheer energy of a room full of people who are genuinely excited to be there.
+I'm not a die-hard comics person. I haven't read every Marvel arc or debated the multiverse timeline over chai. But I'd been to Kerala Pop Con and Indie Comic Fest in previous years, and what pulled me in wasn't really the comics themselves. It was everything around them, the cosplay, the artists hunched over their tables, the strangers bonding instantly over a shared fictional universe, the sheer energy of a room full of people who are genuinely excited to be there.
 
 So when I heard Kerala was finally getting its own full-scale Comic Con, I didn't want to just walk around as a visitor again. I wanted to see how the whole thing actually came together. I applied to volunteer.
 
