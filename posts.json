@@ -1,5 +1,19 @@
 [
   {
+    "title": "Volunteering at Comic Con Kochi: A Walkie-Talkie and a Whole New World",
+    "date": "2026-06-01",
+    "tags": [
+      "Comic Con Kochi",
+      "Volunteer",
+      "Stage Management",
+      "Fandom"
+    ],
+    "description": "My experience volunteering at Comic Con Kochi 2026 as a stage management team lead.",
+    "image": "assets/group_comic_con.jpg",
+    "slug": "comic-con-kochi-volunteer-blog",
+    "readTime": "5 min read"
+  },
+  {
     "title": "Story of a successful crowdfunding campaign",
     "date": "2020-07-16",
     "tags": [
@@ -47,7 +61,7 @@
       "Beyond Born"
     ],
     "description": "It Only Takes 3 Days to Break Addictions Like Screen Time",
-    "image": "assets/screen-time.jpg",
+    "image": "assets/group.jpg",
     "slug": "Screen Time",
     "readTime": "4 Min Read"
   },
