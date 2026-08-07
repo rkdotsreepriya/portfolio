@@ -1,200 +1,214 @@
-[
-  {
-    "title": "Volunteering at Comic Con Kochi: A Walkie-Talkie and a Whole New World",
-    "date": "2026-06-01",
-    "tags": [
-      "Comic Con Kochi",
-      "Volunteer",
-      "Stage Management",
-      "Fandom"
-    ],
-    "description": "My experience volunteering at Comic Con Kochi 2026 as a stage management team lead.",
-    "image": "assets/group_comic_con.jpg",
-    "slug": "comic-con-kochi-volunteer-blog",
-    "readTime": "5 min read"
-  },
-  {
-    "title": "Story of a successful crowdfunding campaign",
-    "date": "2020-07-16",
-    "tags": [
-      "Crowdfunding",
-      "CMX Summit"
-    ],
-    "description": "My experience of raising funds for the CMX Summit.",
-    "image": "assets/c3.png",
-    "slug": "crowdfunding",
-    "readTime": "5 min read"
-  },
-  {
-    "title": "From the God's Own Country to the City of Dream!",
-    "date": "2019-07-16",
-    "tags": [
-      "Universe Simplified Foundation",
-      "Mumbai",
-      "Life in Mumbai"
-    ],
-    "description": "My experience of moving from Kerala to Mumbai and my time at the Universe Simplify Foundation.",
-    "image": "assets/mumbai.jpg",
-    "slug": "mumbai",
-    "readTime": "2 min read"
-  },
-  {
-    "title": "Asha worker workshop",
-    "date": "2026-03-28",
-    "tags": [
-      "Parental Wellbeing",
-      "ASHA Workers",
-      "Community Support",
-      "Early Childhood"
-    ],
-    "description": "Speaking on Parental Wellbeing with ASHA Workers at Fort Kochi, discussing emotional support, family challenges, and the impact of early childhood experiences.",
-    "image": "assets/asha-workshop.jpg",
-    "slug": "asha-worker-workshop",
-    "readTime": "3 Min Read"
-  },
-  {
-    "title": "Screen Time",
-    "date": "2023-08-01",
-    "tags": [
-      "Parenting",
-      "Leadership",
-      "Beyond Born"
-    ],
-    "description": "It Only Takes 3 Days to Break Addictions Like Screen Time",
-    "image": "assets/screen-time.jpg",
-    "slug": "Screen Time",
-    "readTime": "4 Min Read"
-  },
-  {
-    "title": "Let's Move and Groove: Fun Ways to Develop Kids' Motor Skills!",
-    "date": "2023-04-14",
-    "tags": [
-      "Parenting",
-      "Leadership",
-      "Beyond Born"
-    ],
-    "description": "Let's dive into the fun world of motor skills—those cool abilities that help kids move, play, and explore the world around them. From tiny fingers to wiggly toes, motor skills are like superpowers that kids develop as they grow.",
-    "image": "assets/move.jpg",
-    "slug": "moveandgroove",
-    "readTime": "6 Min Read"
-  },
-  {
-    "title": "Do abc, not ABC",
-    "date": "2023-03-01",
-    "tags": [
-      "Leadership",
-      "Parenting",
-      "Beyond Born"
-    ],
-    "description": "Do abc, not ABC",
-    "image": "assets/sandy-millar-NNtdOuq1hqc-unsplash.jpg",
-    "slug": "do abc",
-    "readTime": "3 Min Read"
-  },
-  {
-    "title": "Raising a Bookworm",
-    "date": "2023-02-01",
-    "tags": [
-      "Parenting",
-      "Leadership",
-      "Beyond Born"
-    ],
-    "description": "How to raise a bookworm",
-    "image": "assets/bookworm.jpg",
-    "slug": "Raising a Bookworm",
-    "readTime": "4 Min Read"
-  },
-  {
-    "title": "Pehia Foundation's 5th Anniversary",
-    "date": "2023-01-26",
-    "tags": [
-      "Pehia Foundation",
-      "Women in Tech",
-      "Community Building"
-    ],
-    "description": "Pehia Foundation celebrates 5 years of bridging the gender gap in technology by encouraging and supporting more women in computer science and programming.",
-    "image": "assets/image.jpeg",
-    "slug": "pehia-foundation-5th-anniversary",
-    "readTime": "4 Min Read"
-  },
-  {
-    "title": "The way to use crayons",
-    "date": "2022-11-04",
-    "tags": [
-      "Parenting",
-      "Leadership",
-      "Beyond Born"
-    ],
-    "description": "Encourage circular crayon motion over aimless scribbling and how this simple activity can contribute to your child's growth and creativity.",
-    "slug": "the way to use crayons",
-    "image": "assets/crayons.jpg",
-    "readTime": "3 min read"
-  },
-  {
-    "title": "Early Educational Resources",
-    "date": "2022-09-07",
-    "tags": [
-      "Parenting",
-      "Leadership",
-      "Beyond Born"
-    ],
-    "description": "Early Educational Resources",
-    "slug": "Early Educational Resources",
-    "image": "assets/books.jpg",
-    "readTime": "3 min read"
-  },
-  {
-    "title": "Change Maker Fellowship by Pehia Foundation",
-    "date": "2021-07-01",
-    "tags": [
-      "Leadership",
-      "Community Building",
-      "Inclusion",
-      "Pehia Foundation"
-    ],
-    "description": "Launching the Change Maker Fellowship: A 12-month journey to empower Kerala's next generation of tech changemakers.",
-    "image": "assets/rineshkumar-ghirao-UdDjFekHQuk-unsplash.jpg",
-    "slug": "CM-fellowship",
-    "readTime": "3 Min Read"
-  },
-  {
-    "title": "Pre Summit 2020",
-    "date": "2020-01-25",
-    "tags": [
-      "Community Building",
-      "Leadership",
-      "Education Innovation"
-    ],
-    "description": "An informal meet up organized before Pehia Summit 2020.",
-    "image": "assets/pre-summit.jpg",
-    "slug": "Pre Summit 2020",
-    "readTime": "4 Min Read"
-  },
-  {
-    "title": "Zee Camp 2019",
-    "date": "2019-01-04",
-    "tags": [
-      "Community Building",
-      "Leadership",
-      "Inclusion",
-      "Transgender rights"
-    ],
-    "description": "Thirteen days of learning, fun, and meaningful connections",
-    "image": "assets/ze.jpg",
-    "slug": "Zee Camp 2019",
-    "readTime": "4 Min Read"
-  },
-  {
-    "title": "My First Job - Intern at Baker Hughes",
-    "date": "2018-12-28",
-    "tags": [
-      "Internship",
-      "Learning",
-      "Leadership"
-    ],
-    "description": "As an intern at Baker Hughes, I had the opportunity to work on some exciting projects that gave me valuable experience in the world of corporate operations.",
-    "slug": "first-internship",
-    "image": "assets/ece_future_cover.png",
-    "readTime": "3 Min Read"
-  }
-]
+  [
+    {
+      "title": "Parenting Then and Now: What Changed and What Did Not?",
+      "date": "2026-07-25 ",
+      "tags": [
+        "Parenting",
+        "Child Development",
+        "Social Change",
+        "Family Dynamics"
+      ],
+      "description": "Parenting has changed dramatically since the 1970s. But the goal has not: helping children become healthy, capable, secure adults. The difference is not that one generation “cared more.” Parents have responded to different social conditions, technologies, economic pressures, educational expectations, and scientific knowledge. A fair comparison requires understanding both the strengths and limitations of each era.",
+      "image": "assets/parenting-then-and-now.jpg",
+      "slug": "parenting-then-and-now",
+      "readTime": "3 Min Read"
+    },
+    {
+      "title": "Volunteering at Comic Con Kochi: A Walkie-Talkie and a Whole New World",
+      "date": "2026-06-01",
+      "tags": [
+        "Comic Con Kochi",
+        "Volunteer",
+        "Stage Management",
+        "Fandom"
+      ],
+      "description": "My experience volunteering at Comic Con Kochi 2026 as a stage management team lead.",
+      "image": "assets/group_comic_con.jpg",
+      "slug": "comic-con-kochi-volunteer-blog",
+      "readTime": "5 min read"
+    },
+    {
+      "title": "Story of a successful crowdfunding campaign",
+      "date": "2020-07-16",
+      "tags": [
+        "Crowdfunding",
+        "CMX Summit"
+      ],
+      "description": "My experience of raising funds for the CMX Summit.",
+      "image": "assets/c3.png",
+      "slug": "crowdfunding",
+      "readTime": "5 min read"
+    },
+    {
+      "title": "From the God's Own Country to the City of Dream!",
+      "date": "2019-07-16",
+      "tags": [
+        "Universe Simplified Foundation",
+        "Mumbai",
+        "Life in Mumbai"
+      ],
+      "description": "My experience of moving from Kerala to Mumbai and my time at the Universe Simplify Foundation.",
+      "image": "assets/mumbai.jpg",
+      "slug": "mumbai",
+      "readTime": "2 min read"
+    },
+    {
+      "title": "Asha worker workshop",
+      "date": "2026-03-28",
+      "tags": [
+        "Parental Wellbeing",
+        "ASHA Workers",
+        "Community Support",
+        "Early Childhood"
+      ],
+      "description": "Speaking on Parental Wellbeing with ASHA Workers at Fort Kochi, discussing emotional support, family challenges, and the impact of early childhood experiences.",
+      "image": "assets/asha-workshop.jpg",
+      "slug": "asha-worker-workshop",
+      "readTime": "3 Min Read"
+    },
+    {
+      "title": "Screen Time",
+      "date": "2023-08-01",
+      "tags": [
+        "Parenting",
+        "Leadership",
+        "Beyond Born"
+      ],
+      "description": "It Only Takes 3 Days to Break Addictions Like Screen Time",
+      "image": "assets/screen-time.jpg",
+      "slug": "Screen Time",
+      "readTime": "4 Min Read"
+    },
+    {
+      "title": "Let's Move and Groove: Fun Ways to Develop Kids' Motor Skills!",
+      "date": "2023-04-14",
+      "tags": [
+        "Parenting",
+        "Leadership",
+        "Beyond Born"
+      ],
+      "description": "Let's dive into the fun world of motor skills—those cool abilities that help kids move, play, and explore the world around them. From tiny fingers to wiggly toes, motor skills are like superpowers that kids develop as they grow.",
+      "image": "assets/move.jpg",
+      "slug": "moveandgroove",
+      "readTime": "6 Min Read"
+    },
+    {
+      "title": "Do abc, not ABC",
+      "date": "2023-03-01",
+      "tags": [
+        "Leadership",
+        "Parenting",
+        "Beyond Born"
+      ],
+      "description": "Do abc, not ABC",
+      "image": "assets/sandy-millar-NNtdOuq1hqc-unsplash.jpg",
+      "slug": "do abc",
+      "readTime": "3 Min Read"
+    },
+    {
+      "title": "Raising a Bookworm",
+      "date": "2023-02-01",
+      "tags": [
+        "Parenting",
+        "Leadership",
+        "Beyond Born"
+      ],
+      "description": "How to raise a bookworm",
+      "image": "assets/bookworm.jpg",
+      "slug": "Raising a Bookworm",
+      "readTime": "4 Min Read"
+    },
+    {
+      "title": "Pehia Foundation's 5th Anniversary",
+      "date": "2023-01-26",
+      "tags": [
+        "Pehia Foundation",
+        "Women in Tech",
+        "Community Building"
+      ],
+      "description": "Pehia Foundation celebrates 5 years of bridging the gender gap in technology by encouraging and supporting more women in computer science and programming.",
+      "image": "assets/image.jpeg",
+      "slug": "pehia-foundation-5th-anniversary",
+      "readTime": "4 Min Read"
+    },
+    {
+      "title": "The way to use crayons",
+      "date": "2022-11-04",
+      "tags": [
+        "Parenting",
+        "Leadership",
+        "Beyond Born"
+      ],
+      "description": "Encourage circular crayon motion over aimless scribbling and how this simple activity can contribute to your child's growth and creativity.",
+      "slug": "the way to use crayons",
+      "image": "assets/crayons.jpg",
+      "readTime": "3 min read"
+    },
+    {
+      "title": "Early Educational Resources",
+      "date": "2022-09-07",
+      "tags": [
+        "Parenting",
+        "Leadership",
+        "Beyond Born"
+      ],
+      "description": "Early Educational Resources",
+      "slug": "Early Educational Resources",
+      "image": "assets/books.jpg",
+      "readTime": "3 min read"
+    },
+    {
+      "title": "Change Maker Fellowship by Pehia Foundation",
+      "date": "2021-07-01",
+      "tags": [
+        "Leadership",
+        "Community Building",
+        "Inclusion",
+        "Pehia Foundation"
+      ],
+      "description": "Launching the Change Maker Fellowship: A 12-month journey to empower Kerala's next generation of tech changemakers.",
+      "image": "assets/rineshkumar-ghirao-UdDjFekHQuk-unsplash.jpg",
+      "slug": "CM-fellowship",
+      "readTime": "3 Min Read"
+    },
+    {
+      "title": "Pre Summit 2020",
+      "date": "2020-01-25",
+      "tags": [
+        "Community Building",
+        "Leadership",
+        "Education Innovation"
+      ],
+      "description": "An informal meet up organized before Pehia Summit 2020.",
+      "image": "assets/pre-summit.jpg",
+      "slug": "Pre Summit 2020",
+      "readTime": "4 Min Read"
+    },
+    {
+      "title": "Zee Camp 2019",
+      "date": "2019-01-04",
+      "tags": [
+        "Community Building",
+        "Leadership",
+        "Inclusion",
+        "Transgender rights"
+      ],
+      "description": "Thirteen days of learning, fun, and meaningful connections",
+      "image": "assets/ze.jpg",
+      "slug": "Zee Camp 2019",
+      "readTime": "4 Min Read"
+    },
+    {
+      "title": "My First Job - Intern at Baker Hughes",
+      "date": "2018-12-28",
+      "tags": [
+        "Internship",
+        "Learning",
+        "Leadership"
+      ],
+      "description": "As an intern at Baker Hughes, I had the opportunity to work on some exciting projects that gave me valuable experience in the world of corporate operations.",
+      "slug": "first-internship",
+      "image": "assets/ece_future_cover.png",
+      "readTime": "3 Min Read"
+    }
+  ]

@@ -277,6 +277,23 @@ const pressData = [
     tags: ["Profile", "Women in Tech"]
   },
   {
+    title: "Pehia founders selected for international scholarships",
+    publication: "Manorama Online",
+    description: "-Pehia founders selected for CMX Summit Scholarship and Google Women in Tech Scholarship.",
+    link: "https://www.manoramaonline.com/style/yuva/2019/11/19/pehia-founders-selected-for-international-scholarships.html",
+    date: "Nov 2019",
+    tags: ["Profile", "Women in Tech", "Community", "CMX Summit", "Google"]
+  },
+  {
+    title: "Young women on a mission to bridge gender gap in technology",
+    publication: "Onmanorama",
+    description: "Enfa Rose George and Sreepriya Radhakrishnan, two young women who founded Pehia Foundation, an organisation working towards bridging the gender gap in technology, are going places. Both of them have been selected for prestigious international scholarships .",
+    link: "https://www.onmanorama.com/lifestyle/women/2019/11/20/young-women-mission-bridge-gender-gap-technology.amp.html",
+    date: "Nov 2019",
+    tags: ["Profile", "Women in Tech", "Community", "CMX Summit", "Google"]
+  },
+
+  {
     title: "Helping Hands Restore Classrooms, School Park",
     publication: "The Hindu",
     description: "Detailing the collaborative post-flood restoration efforts where professionals, students, and teachers worked together to rebuild playgrounds and classrooms.",
