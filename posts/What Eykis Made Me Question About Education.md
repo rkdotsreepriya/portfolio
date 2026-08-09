@@ -4,7 +4,7 @@ date: "2026-08-06"
 tags: ["Education", "Book"]
 description: "What Eykis Made Me Question About Education"
 image: "assets/eykis.jpg"
-slug: "what-eykis-made-me-question-about-education"
+slug: "What Eykis Made Me Question About Education"
 readTime: "8 Min Read"
 ---
 
