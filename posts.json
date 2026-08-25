@@ -1,5 +1,17 @@
   [
     {
+      "title": "The Movie Showed Me the World. The Book Answered My Questions.",
+      "date": "2026-08-26",
+      "tags": [
+        "Project Hailmary",
+        "Book"
+      ],
+      "description": "The Movie Showed Me the World. The Book Answered My Questions",
+      "image": "assets/movies_book.jpg",
+      "slug": "The Movie Showed Me the World. The Book Answered My Questions",
+      "readTime": "5 Min Read"
+    },
+    {
       "title": "What Eykis Made Me Question About Education",
       "date": "2026-08-06",
       "tags": [
