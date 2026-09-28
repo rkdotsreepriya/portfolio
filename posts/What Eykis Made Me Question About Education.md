@@ -24,7 +24,7 @@ And when you work with children, that can be a slightly dangerous way of looking
 
 Because children are very good at noticing what adults have stopped noticing.
 
-![Eykis](/assets/eyes.jpg)
+![Eykis](assets/eyes.jpg)
 
 ## Seeing Earth Through Eykis
 

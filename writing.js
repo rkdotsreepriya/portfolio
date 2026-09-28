@@ -422,6 +422,13 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
 
+    const normalizeLocalUrl = (url) => {
+      if (!url || url.startsWith('http://') || url.startsWith('https://') || url.startsWith('mailto:') || url.startsWith('#') || url.startsWith('data:')) {
+        return url;
+      }
+      return url.replace(/^\/+/, '');
+    };
+
     const parseInlineMarkdown = (text) => {
       return text
         // Bold
@@ -431,9 +438,9 @@ document.addEventListener('DOMContentLoaded', () => {
         .replace(/\*(.*?)\*/g, '<em>$1</em>')
         .replace(/_(.*?)_/g, '<em>$1</em>')
         // Inline Images
-        .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" style="max-width: 100%; border-radius: 8px; margin: 1.5rem 0;">')
+        .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, src) => `<img src="${normalizeLocalUrl(src)}" alt="${alt}" style="max-width: 100%; border-radius: 8px; margin: 1.5rem 0;">`)
         // Inline Links
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, label, href) => `<a href="${normalizeLocalUrl(href)}" target="_blank" rel="noopener">${label}</a>`)
         // Email formatting in text (e.g. connect\[at]sreepriya\[dot]xyz)
         .replace(/connect\\\[at\\\]sreepriya\\\[dot\\\]xyz/g, 'connect@sreepriya.xyz');
     };

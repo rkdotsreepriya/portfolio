@@ -15,7 +15,7 @@ I’m not usually much of a fiction reader. My bookshelf mostly sits quiet unles
 
 Which brings me to *Project Hail Mary*.
 
-![Project Hail Mary](/assets/movies_book.jpg)
+![Project Hail Mary](assets/movies_book.jpg)
 
 I recently watched the film adaptation starring Ryan Gosling, and I was completely hooked. Leaving the theater, I felt that familiar itch, the curiosity to see how the story originally existed on the page. How faithfully had it been translated? What got left on the cutting room floor? Would reading it actually add anything new, or had I already gotten the best version?
 
@@ -27,7 +27,7 @@ What surprised me most was how much I loved the dynamic between the main astrona
 
 Then, there’s the science. I’m certainly not a science-heavy reader, and I definitely didn't grasp every single technical detail on the first try. But Andy Weir writes science in a way that never feels like a lecture or empty background noise. It makes you curious. Every time a question popped into my head *Wait, why does that work?* the book seemed to have an answer waiting a few lines down.
 
-![Project Hail Mary](/assets/book.jpg)
+![Project Hail Mary](assets/book.jpg)
 
 
 That’s really where the book excels. A two-hour movie simply doesn't have room for every piece of logic, trial, and error. The film gave me the story and the visual spark and the book gave me the *why*.
